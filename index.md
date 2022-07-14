@@ -1,6 +1,6 @@
 ## Welcome to Muona's Portfolio
 
-### Sample Websites
+### Website Designs
 
 Please review the sample websites below. 
 
