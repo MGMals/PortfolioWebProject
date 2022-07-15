@@ -1938,6 +1938,12 @@ body.pushmenu-push-toleft  nav.navbar.bootsnav.sticked, body.pushmenu-push-tolef
 .page_header{
 	background:url(../images/booth0.jpeg) no-repeat;
 }
+#video {
+  position: absolute;
+  top: 0;
+  left: 0;
+	height: 200px;
+}
 #counter{
 	background:url(../images/counter.jpg) no-repeat;
 }
