@@ -4342,7 +4342,7 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 }
 
 .owl-carousel.nav-light:not(.nav-style-1):not(.nav-style-2):not(.nav-style-3):not(.show-nav-title):not(.nav-arrows-1).nav-svg-arrows-1 .owl-nav button[class*="owl-"] svg polygon {
-	fill: #212529 !important;
+	fill: green !important;
 	stroke: #212529 !important;
 }
 
@@ -15914,40 +15914,40 @@ html.gecko .sort-destination.sort-destination-margin > [class*="col-"] {
 }
 
 .svg-fill-color-dark {
-	fill: #212529 !important;
+	fill: #F0F !important;
 }
 
 .svg-fill-color-dark svg path, .svg-fill-color-dark svg rect {
-	fill: #212529 !important;
+	fill: #F0F !important;
 }
 
 .svg-fill-color-hover-dark:hover {
-	fill: #212529 !important;
+	fill: #F0F !important;
 }
 
 .svg-fill-color-hover-dark svg:hover path, .svg-fill-color-hover-dark svg:hover rect {
-	fill: #212529 !important;
+	fill: #F0F !important;
 }
 
 .svg-stroke-color-dark {
-	stroke: #212529 !important;
+	stroke: #F0F !important;
 }
 
 .svg-stroke-color-dark svg path, .svg-stroke-color-dark svg rect {
-	stroke: #212529 !important;
+	stroke: #F0F !important;
 }
 
 .svg-stroke-color-hover-dark:hover {
-	stroke: #212529 !important;
+	stroke: #F0F !important;
 }
 
 .svg-stroke-color-hover-dark svg:hover path, .svg-stroke-color-hover-dark svg:hover rect {
-	stroke: #212529 !important;
+	stroke: #F0FFFF !important;
 }
 
 /* SVG Animations */
 .svg-animation-effect-1-hover.svg-animation-effect-1-hover-dark:hover svg path, .svg-animation-effect-1-hover.svg-animation-effect-1-hover-dark:hover svg polygon, .svg-animation-effect-1-hover.svg-animation-effect-1-hover-dark:hover svg polyline, .svg-animation-effect-1-hover.svg-animation-effect-1-hover-dark:hover svg rect {
-	stroke: #212529;
+	stroke: #F0F;
 }
 
 .svg-animation-effect-1-hover.svg-animation-effect-1-hover-light:hover svg path, .svg-animation-effect-1-hover.svg-animation-effect-1-hover-light:hover svg polygon, .svg-animation-effect-1-hover.svg-animation-effect-1-hover-light:hover svg polyline, .svg-animation-effect-1-hover.svg-animation-effect-1-hover-light:hover svg rect {

@@ -305,10 +305,10 @@
 
 
 .pricing_item.active:hover, .pricing_item:hover{
-	border-color:#E04622;
+	border-color:#2779A7;
 }
 .pricing_item.active{
-	border-color:#E04622;
+	border-color:#2779A7;
 }
 .pricing_item h3{
 	margin: 0 0 1rem;
