@@ -1929,14 +1929,13 @@ body.pushmenu-push-toleft  nav.navbar.bootsnav.sticked, body.pushmenu-push-tolef
 
 /* ----- Paralax  ----- */
 #parallax{
-	background:url(../images/parallax3.jpg) no-repeat;
 	padding:10% 0;
 }
 #experts{
 	background:url(../images/parallax3.jpg) no-repeat;
 }
 .page_header{
-	background:url(../images/booth0.jpeg) no-repeat;
+	background-color: transparent;
 }
 #video {
   position: absolute;
