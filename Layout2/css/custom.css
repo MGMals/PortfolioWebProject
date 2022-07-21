@@ -333,17 +333,20 @@
 	font-size:14px;
 	padding:25px 0;	
 	color: #5b5b5b;
+	
 }
- .pricing_list li{
-	margin-bottom:8px;
-}
+	.pricing_list li {
+		margin-bottom: 8px;
+		background: lightgrey;
+		list-style-type: none;
+	}
+		.pricing_list li:nth-child(odd) {
+			background: lightblue;
+			margin-bottom: 8px;
+			list-style-type: none;
+		}
  .pricing_list li:before{
-	content:'\f00c';
-	font-family:'FontAwesome';
-	display: inline-block;
-   margin-right:10px;
-   vertical-align: middle;
-	color:#73AE20;
+
 }
 .pricing_item a{
 	width:100%;
