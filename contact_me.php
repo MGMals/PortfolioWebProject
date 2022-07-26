@@ -19,7 +19,7 @@ if($_POST)
     }
 	
 	//check $_POST vars are set, exit if any missing
-	if(!isset($_POST["userName"]) || !isset($_POST["userEmail"]) || !isset($_POST["userMessage"]))
+	if(!isset($_POST["userName"]) || !isset($_POST["userEmail"]) || !isset($_POST["userSubject"]|| !isset($_POST["userMessage"]))
 	{
 		$output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
 		die($output);
@@ -28,8 +28,9 @@ if($_POST)
 	//Sanitize input data using PHP filter_var().
 	$user_Name        = filter_var($_POST["userName"], FILTER_SANITIZE_STRING);
 	$user_Email       = filter_var($_POST["userEmail"], FILTER_SANITIZE_EMAIL);
+	$user_Subject       = "";
 	$user_Message     = filter_var($_POST["userMessage"], FILTER_SANITIZE_STRING);
-	$user_Website = "";
+// 	$user_Website = "";
 	
 	//additional php validation
 	if(strlen($user_Name)<3) // If length is less than 3 it will throw an HTTP error.
@@ -43,12 +44,10 @@ if($_POST)
 		die($output);
 	}
 	
-	if ($_POST["userWebsite"]) {
-		$user_Website  = $_POST["userWebsite"];
-		}
-	
-	
-	
+// 	if ($_POST["userWebsite"]) {
+// 		$user_Website  = $_POST["userWebsite"];
+// 		}
+
 	if(strlen($user_Message)<5) //check emtpy message
 	{
 		$output = json_encode(array('type'=>'error', 'text' => 'Too short message! Please enter something.'));
@@ -58,7 +57,7 @@ if($_POST)
 	
 	$message_Body = "<strong>Name: </strong>". $user_Name ."<br>";
 	$message_Body .= "<strong>Email: </strong>". $user_Email ."<br>";
-	$message_Body .= "<strong>Website: </strong>". $user_Website ."<br>";
+	$message_Body .= "<strong>Subject: </strong>". $$user_Subject ."<br>";
 	$message_Body .= "<strong>Message: </strong>". $user_Message ."<br>";
 	
 	
