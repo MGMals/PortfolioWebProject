@@ -1,7 +1,7 @@
 <?php
 if($_POST)
 {
-	$to_Email   	= "admin@themes.ads"; //Replace with recipient email address
+	$to_Email   	= "connect@b2d2reels.biz"; //Replace with recipient email address
 	$subject        = 'Xwin - New Contact Inquiry'; //Subject line for emails
 
 
