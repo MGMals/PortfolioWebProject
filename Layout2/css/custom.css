@@ -336,13 +336,14 @@
 	
 }
 	.pricing_list li {
-		margin-bottom: 8px;
-		background: lightgrey;
+		margin-bottom: 0px;
+		background: #EFF1F7;
 		list-style-type: none;
+		text-align: center;
 	}
 		.pricing_list li:nth-child(odd) {
-			background: lightblue;
-			margin-bottom: 8px;
+			background: #FFFFFF;
+			margin-bottom: 0px;
 			list-style-type: none;
 		}
  .pricing_list li:before{

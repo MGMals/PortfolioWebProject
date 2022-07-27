@@ -48,6 +48,10 @@
 
 		<!-- Head Libs -->
 		<script src="Layout2/vendor/modernizr/modernizr.min.js"></script>
+		
+		<!-- Recaptcha -->
+		 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 
 	</head>
 	<body data-plugin-scroll-spy data-plugin-options="{'target': '#sidebar'}">
@@ -182,8 +186,8 @@
 													freedom. After becoming empty nesters, the decision was made to relocate east. Best decision!</p>
 												
 													<p class="text-3-5 font-weight-light mb-3">While looking forward to the next chapter in our lives, being photo booth proprietors was spoken into
-													existence, so to speak! We wanted to continue making memorable moments in time. With a fun prop, a
-														striking pose, “WA-LA” your shot is created,</p>
+													existence, so to speak! We wanted to continue making memorable moments in time. <span class="highlight highlight-primary highlight-bg-opacity highlight-animated" data-appear-animation="highlight-animated-start" data-appear-animation-delay="2000" data-plugin-options="{'flagClassOnly': true}">With a fun prop, a
+														striking pose, “WA-LA” your shot is created,</span></p>
 											<p class="text-3-5 font-weight-light mb-3">	Now let’s try that again!</p>
 											</div>
 										</div>
@@ -202,40 +206,17 @@
 											Who We Are
 										</a>
 									</li>
-<!--
-									<li class="nav-item border border-color-grey-1 border-top-0 border-end-0 border-start-0 mb-0">
-										<a class="nav-link text-color-dark text-color-hover-primary py-3 ps-0" data-hash data-hash-offset="0" data-hash-offset-lg="110" href="#history">
-											<i class="fas fa-chevron-right text-1 position-relative top-1 pe-3-5"></i>
-											History
-										</a>
-									</li>
--->
 									<li class="nav-item border border-color-grey-1 border-top-0 border-end-0 border-start-0 mb-0">
 										<a class="nav-link text-color-dark text-color-hover-primary py-3 ps-0" data-hash data-hash-offset="0" data-hash-offset-lg="110" href="#mission-vision">
 											<i class="fas fa-chevron-right text-1 position-relative top-1 pe-3-5"></i>
 											Mission 
 										</a>
 									</li>
-<!--
-									<li class="nav-item border border-color-grey-1 border-top-0 border-end-0 border-start-0 mb-0">
-										<a class="nav-link text-color-dark text-color-hover-primary py-3 ps-0" data-hash data-hash-offset="0" data-hash-offset-lg="110" href="#leadership">
-											<i class="fas fa-chevron-right text-1 position-relative top-1 pe-3-5"></i>
-											Leadership
-										</a>
-									</li>
--->
-<!--
-									<li class="nav-item mb-0">
-										<a class="nav-link text-color-dark text-color-hover-primary py-3 ps-0" data-hash data-hash-offset="0" data-hash-offset-lg="110" href="#partners">
-											<i class="fas fa-chevron-right text-1 position-relative top-1 pe-3-5"></i>
-											Partners
-										</a>
-									</li>
--->
+
 								</ul>
 
 								<h3 class="text-color-dark font-weight-bold text-transform-none text-5-5 line-height-1 mb-3-5">Contact Us</h3>
-								<p class="text-2 line-height-9">Contact us sending a message or give us a call to discover how we can help. </p>
+								<p class="text-2 line-height-9">Contact us sending a message to discover how we can help. </p>
 
 								<form class="contact-form form-style-3" action="php/contact-form.php" method="POST">
 									<div class="contact-form-success alert alert-success d-none mt-4">
@@ -266,6 +247,9 @@
 										<div class="form-group col mb-3-5">
 											<textarea maxlength="5000" data-msg-required="Please enter your message." rows="4" class="form-control text-2 h-auto py-2-5" name="message" placeholder="Message" required></textarea>
 										</div>
+									</div>
+									<div class="row">
+										<div class="form-group col mb-3-5 g-recaptcha" data-sitekey="6Lfo4iIhAAAAAAGrS6JSLxyxrONyZoCEusUNV5r-"></div>
 									</div>
 									<div class="row">
 										<div class="form-group col">

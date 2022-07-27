@@ -24,7 +24,7 @@ require 'php-mailer/src/Exception.php';
 if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
 
 	// Your Google reCAPTCHA generated Secret Key here
-	$secret = 'YOUR_RECAPTCHA_SECRET_KEY';
+	$secret = '6Lfo4iIhAAAAAH6Cj-xpnW-CY42Ll-4wDfWsEsHw';
 	
 	if( ini_get('allow_url_fopen') ) {
 		//reCAPTCHA - Using file_get_contents()
