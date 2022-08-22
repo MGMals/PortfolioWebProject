@@ -246,7 +246,7 @@
 	position: relative;
 	margin: 1rem;
 	padding: 2rem 1rem;
-	border: 3px solid #73ae20;
+	border: 2px solid #eaeaea;
 	margin-top:0;
 	text-align:left;
 	
@@ -304,13 +304,15 @@
 
 
 .pricing_item.active:hover, .pricing_item:hover{
-	border-color:#2779A7;
+	border-color:#1bede5;
 }
 .pricing_item.active{
-	border-color:#2779A7;
+	border-color:#1bd2ed;
 }
 .pricing_item h3{
 	margin: 0 0 1rem;
+	padding-left:0px; 
+	padding-right: 0px;
 }
 .pricing_item .pricing_price{
 	font-size: 2rem;
@@ -330,18 +332,18 @@
 }
 .pricing_list {
 	font-size:14px;
-	padding:25px 0;	
+	padding:0px 0;	
 	color: #5b5b5b;
 	
 }
 	.pricing_list li {
 		margin-bottom: 0px;
-		background: #EFF1F7;
+		background: #FFFFFF;
 		list-style-type: none;
 		text-align: center;
 	}
 		.pricing_list li:nth-child(odd) {
-			background: #FFFFFF;
+			background: #F7F7F7;
 			margin-bottom: 0px;
 			list-style-type: none;
 		}
@@ -352,6 +354,6 @@
 	width:100%;
 }
 .pricing_item .btn_border{
-	border-color:#73ae20;
+	border-color:#1bede5;
 }
 /* ----- Pricings ends ----- */
